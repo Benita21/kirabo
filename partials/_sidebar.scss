@@ -1,0 +1,14 @@
+.sidebar{
+    width: 20%;
+    height: 100%;
+    background-color :rgb(31,31,31);
+    color: aliceblue;
+    position: fixed;
+    @media(max-width:768px){
+        display: none;
+    }
+    // display: none;
+    a{
+        color: aliceblue;
+    }
+}
