@@ -3,6 +3,9 @@
     height: 60vh;
      margin-bottom: 2rem;
     // background-color: green;
+    @media(max-width:422px){
+width: 100%;
+    }
     @media(max-width:768px){
         width: 100%; 
         height: auto;
@@ -86,10 +89,17 @@
     height: 80%;
     margin-top: 30px;
     @media(max-width:900px){
+      align-items: start;
       display: flex;
       flex-direction: column;
       gap:.5rem;
       height: 30%;
+      @media(max-width:422px){
+        display: flex;
+      flex-direction: column;
+      gap:.5rem;
+      height: 30%;
+      }
       @media(max-width:360px){
         width: 100%;
         display: flex;
@@ -112,6 +122,10 @@ width: 100%;
       .project-image{
         width: 100%;
         height: 80%;
+        @media(max-width:422px){
+          width: 100%;
+          padding-right: 2rem;
+        }
         @media(max-width:768px){
           width: 200%;
           height: 300px;
@@ -129,6 +143,10 @@ width: 100%;
           width: 100%;
           object-fit: cover;
           border-radius: 10px;
+          @media(max-width:422px){
+            width: 200%;
+            // margin-right: 3rem;
+          }
           @media(max-width:360px){
             width: 100%;
                 }

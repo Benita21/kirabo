@@ -3,10 +3,14 @@
     min-height: 100%;
     // padding:1rem
     padding: 1rem;
+    @media(max-width:362px){
+        width: 100%; 
+    } 
    @media(max-width:900px){
     width: 100%;
     background-color:black;
     margin-left: 0rem;
+
     @media(max-width:360px){
         width: 100%;
         background-color:black;
@@ -110,6 +114,9 @@ padding: 0;
         .abilities{
             width: 100%;
             padding: 2rem;
+            @media(max-width:362px){
+                width: 100%; 
+            } 
             h6{
                 font-size: 1.5rem;;
                 color: #f9a8d4;
